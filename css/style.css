@@ -8,4 +8,73 @@ html {
 
 body {
     background: #111D4A;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+
+.card {
+    background: rgb(245, 242, 241);
+    border-radius: 16px;
+    max-width: 624px;
+    width: 100%;
+    padding: 32px;
+
+}
+
+.person {
+    display: flex;
+    align-items: flex-start;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.person__description--last {
+    margin-bottom: 0;
+}
+
+.person__header {
+    margin-bottom: 32px;
+}
+
+.person__link {
+    text-decoration: none;
+    color: red;
+}
+
+.person__name {
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+}
+
+.person__photo {
+    max-width: 148px;
+    width: 100%;
+    max-height: 148px;
+    height: 100%;
+    border-radius: 100px;
+    margin-right: 32px;
+    
+}
+
+.person__position {
+    font-size: 18px;
+    font-style: italic;
+    color: #848586;
+}
+
+.person__special {
+    color: rgb(231, 131, 48);
+    font-weight: normal;
 }
